@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.samples</groupId>
-	<artifactId>spring-batch-boot-sample</artifactId>
+	<artifactId>test-batch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<!-- <parent> <groupId>org.springframework.samples</groupId> <artifactId>test-parent</artifactId>
+	<!-- <parent> <groupId>org.springframework.samples</groupId> <artifactId>test-parent</artifactId> 
 		<version>1.0</version> <relativePath>../test-parent</relativePath> </parent> -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -29,6 +29,15 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-oxm</artifactId>
 		</dependency>
+		<dependency>
+            <groupId>org.springframework.batch</groupId>
+            <artifactId>spring-batch-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 	</dependencies>
 	<build>
 		<plugins>

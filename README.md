@@ -22,3 +22,4 @@ Some good links to follow
 --------------------------
 * [Spring Batch Testing](http://javaninja.net/2016/02/spring-batch-testing/)
 * [Spring Batch Tutorial: Reading Information From a REST API](http://www.petrikainulainen.net/programming/spring-framework/spring-batch-tutorial-reading-information-from-a-rest-api/)
+* [Remote Partitioning](http://sooyoung32.blogspot.in/2015/06/spring-boot-spring-batch-spring-batch.html)
